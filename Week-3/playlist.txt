@@ -1,0 +1,37 @@
+playlist = [
+    {
+        'title': 'Bodak Yellow',
+        'genre': 'Pop',
+        'artiste': 'Cardi B',
+        'year': '2017',
+        'length': 3.25
+    },
+    {
+        'title': 'Shake it Off',
+        'genre': 'Pop',
+        'artiste': 'Taylor Swift',
+        'year': '2016',
+        'length': 3.15
+    },
+    {
+        'title': 'Through the Night',
+        'genre': 'Pop',
+        'artiste': 'Travis Scott',
+        'year': '2016',
+        'length': 4.50
+    },
+    {
+        'title': 'Likes',
+        'genre': 'Reggae',
+        'artiste': 'Chronixx',
+        'year': '2017',
+        'length': 3.45
+    },
+    {
+        'title': 'From Time',
+        'genre': 'Pop',
+        'artiste': 'Drake, Jhene Aiko',
+        'year': '2013',
+        'length': 2.50
+    }
+]
