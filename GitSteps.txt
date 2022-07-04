@@ -3,3 +3,6 @@ Doing stuff in GIT
 1. add
 2. commit
 3. push
+4. git remote add 
+
+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

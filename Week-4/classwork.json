@@ -1,0 +1,17 @@
+#writing to csv file 
+import csv
+people = [{'name': "John", 'age':30, 'sex': 'M', 'address': 'Toronto'}]
+fields = ['name', 'age', 'sex', 'address']
+#write this to a csv file called people.csv
+
+with open('people.csv', 'w') as f:
+    writer = csv.writer(f)
+    writer.writerow(people)
+
+
+with open('people.csv','a') as data_file:
+    writer=csv.DictWriter(data_file, fieldnames=fields)
+    writer.writeheader()
+    for person in people:
+        writer.writerow(person)
+        
