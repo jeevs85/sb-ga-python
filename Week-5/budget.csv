@@ -18,3 +18,9 @@ Title,Income,Budget,Date
 "['b', 'f']","['234', 'Income']","['2343', '23432']","['2342', '23']"
 Test,Income,2343,23-43-2022
 "['Title', 'test']","['Income', 'Income']","['Budget', '234']","['Date', '22-22-2222']"
+Title,Income,Budget,Date
+['Test'],['Income'],['234'],['02-02-2022']
+"['Test', 'test']","['Income', 'Expense']","['234', '2343']","['02-02-2022', '03-04-2021']"
+Title,Income,Budget,Date
+['jeevs'],['Income'],['234'],['13-12-2022']
+"['jeevs', 'test']","['Income', 'Income']","['234', '234']","['13-12-2022', '13-12-2022']"
