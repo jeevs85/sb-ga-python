@@ -1,0 +1,20 @@
+Title,Income,Budget,Date
+t3,income,234,09-09-2022
+Title,Income,Budget,Date
+t3,d,2344,07-07-2022
+Title,Income,Budget,Date
+t4,,2343,d
+Title,Income,Budget,Date
+['car'],['Please enter the if this is an income or expense account'],200,05-07-2022
+"['car', ""boat'""]","['Please enter the if this is an income or expense account', 'Please enter the if this is an income or expense account']",2344,05-07-2022
+Title,Income,Budget,Date
+['car'],['Income'],['200'],['07-07-2022']
+"['car', 'boat']","['Income', 'Expense']","['200', '20']","['07-07-2022', '08-07-2022']"
+Title,Income,Budget,Date
+['b'],['Income'],['20'],['07-08-2000']
+"['b', 'c']","['Income', 'Income']","['20', '30']","['07-08-2000', '02-02-2022']"
+Title,Income,Budget,Date
+['b'],['234'],['2343'],['2342']
+"['b', 'f']","['234', 'Income']","['2343', '23432']","['2342', '23']"
+Test,Income,2343,23-43-2022
+"['Title', 'test']","['Income', 'Income']","['Budget', '234']","['Date', '22-22-2222']"
