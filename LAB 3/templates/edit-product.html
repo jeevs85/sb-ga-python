@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block header %}
+    <h1>Add New Product</h1>
+{% endblock %}
+{% block content %}
+{% if product %}
+    <form method="post">
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="name" value="{{product.name}}"/>
+        </div>
+        <div class="form-group">
+            <label>Description</label>
+            <input type="text" name="description" value="{{product.description}}"/>
+        </div>
+        <div class="form-group">
+            <label>Price</label>
+            <input type="text"name="price" value="{{product.price}}"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+ {% else %}
+    <h2>No product with that id found</h2>
+ {% endif %}   
+{% endblock %}
